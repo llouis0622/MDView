@@ -1,0 +1,41 @@
+MDView project license
+
+Scope
+-----
+The MIT License below applies only to the original MDView source code,
+project-authored scripts, styles, documentation and example text in this
+repository. It does not replace the licenses of third-party software or
+artwork. No ownership of the user-supplied icon is claimed here.
+
+Excluded material:
+- Resources/viewer.js and Resources/viewer.js.LEGAL.txt contain bundled
+  third-party software. See THIRD_PARTY_NOTICES.md and the retained notices.
+- Resources/LLouis.png is user-supplied artwork. Resources/AppIcon.icns,
+  Resources/AppIcon.iconset/* and icon appearances in screenshots derive
+  from it. Rights remain with the original rights holder(s). No additional
+  copyright license for that artwork is granted by this project. Obtain
+  permission or replace the artwork for uses requiring separate rights.
+- The app distributed inside releases/ combines the original project code,
+  third-party libraries and the user-supplied icon; each retains its own terms.
+
+MIT License
+-----------
+Copyright (c) 2026 MDView contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to
+do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

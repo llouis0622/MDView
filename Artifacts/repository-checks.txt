@@ -1,0 +1,69 @@
+MDView GitHub repository package verification — 2026-10-16
+
+PASS Original Sources/Web/Resources/Tests/Examples: byte-for-byte unchanged
+PASS User icon original and generated assets preserved
+PASS Included installer ZIP: identical to the previously verified final ZIP
+PASS Required repository files and README relative links
+PASS ZIP compression integrity and executable script permission metadata
+PASS Installer SHA-256: 710555adb3d8a7b9a6ca5f9269bd15a1296a66d5bb3bb451f100003ab5d3299c
+PASS Extracted installer codesign --verify --deep --strict
+PASS Extracted installer architectures: arm64, x86_64
+PASS Offline Universal rebuild from extracted repository, with no npm install
+PASS Updated package.sh: generated installer ZIP, checksum and compression test
+PASS No .git history/remotes, node_modules, build cache, duplicate source ZIP, or personal absolute paths
+
+Existing app integration results remain 41/41 arm64 native and 41/41 x86_64 via Rosetta.
+The packaging work does not count those as newly rerun tests.
+Not verified: physical Intel Mac, macOS 13 runtime, full Finder mouse-drag gesture.
+Existing x86_64 compatibility-archive linker warning is documented in VALIDATION.md.
+No remote repository was created and no git init/add/commit/push was executed.
+
+File inventory below lists all other repository files (relative path and exact bytes).
+This report itself is excluded to avoid a self-referential size entry.
+
+.gitignore	477
+Artifacts/MDView-Finder-icon.png	20418
+Artifacts/MDView-app-screen.png	227905
+Artifacts/MDView-dark.png	221803
+Artifacts/MDView-light.png	225424
+Artifacts/MDView-mermaid.png	160779
+Artifacts/test-results-arm64.txt	1547
+Artifacts/test-results-x86_64.txt	1547
+CHANGELOG.md	710
+Examples/시작하기.md	2390
+LICENSE	2094
+README.md	8986
+Resources/AppIcon.icns	727745
+Resources/AppIcon.iconset/icon_128x128.png	19978
+Resources/AppIcon.iconset/icon_128x128@2x.png	58449
+Resources/AppIcon.iconset/icon_16x16.png	884
+Resources/AppIcon.iconset/icon_16x16@2x.png	2421
+Resources/AppIcon.iconset/icon_256x256.png	58449
+Resources/AppIcon.iconset/icon_256x256@2x.png	168310
+Resources/AppIcon.iconset/icon_32x32.png	2421
+Resources/AppIcon.iconset/icon_32x32@2x.png	6903
+Resources/AppIcon.iconset/icon_512x512.png	168310
+Resources/AppIcon.iconset/icon_512x512@2x.png	470736
+Resources/Info.plist	1846
+Resources/LLouis.png	232296
+Resources/index.html	1562
+Resources/viewer.css	5961
+Resources/viewer.js	5363988
+Resources/viewer.js.LEGAL.txt	1878
+Scripts/build.sh	1374
+Scripts/check-icon.swift	706
+Scripts/icon.swift	2140
+Scripts/package.sh	1635
+Scripts/window-info.swift	398
+Sources/App.swift	17986
+Sources/Document.swift	4132
+Sources/Entry.swift	264
+Sources/ResourceHandler.swift	2848
+THIRD_PARTY_NOTICES.md	227898
+Tests/Integration.swift	12094
+VALIDATION.md	5700
+Web/viewer.js	8904
+package-lock.json	63143
+package.json	433
+releases/v1.0.0/MDView-1.0.0-macOS-universal.zip	2444868
+releases/v1.0.0/SHA256SUMS	99

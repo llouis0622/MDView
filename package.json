@@ -1,0 +1,17 @@
+{
+  "name": "mdview",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline macOS Markdown viewer",
+  "scripts": {
+    "bundle": "esbuild Web/viewer.js --bundle --minify --format=iife --target=safari16 --outfile=Resources/viewer.js --legal-comments=linked"
+  },
+  "dependencies": {
+    "dompurify": "3.4.17",
+    "markdown-it": "15.0.3",
+    "mermaid": "12.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

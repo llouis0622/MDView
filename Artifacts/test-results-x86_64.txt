@@ -1,0 +1,43 @@
+PASS Korean Markdown and TOC rendered
+PASS offline Mermaid flowchart and sequence
+PASS table and fenced Swift code
+PASS Korean search and first result
+PASS next search result
+PASS previous search result
+PASS clear search restores text nodes
+PASS no-result search
+PASS dark theme
+PASS light theme and font size
+PASS TOC toggle
+PASS File > Open menu opens NSOpenPanel
+PASS cancel keeps current document
+PASS new document resets search, scroll and TOC
+PASS Finder-style file URL pasteboard decoded
+PASS drop accepted
+PASS rapid repeated drops: latest document wins
+PASS empty and multiple file drops rejected
+PASS empty document state
+PASS malformed Markdown degrades safely
+PASS invalid encoding preserves previous document
+PASS BOM UTF-16 support
+PASS NUL binary rejected
+PASS unsupported extension rejected
+PASS missing file preserves document
+PASS large file uses bounded plain rendering
+PASS over 8 MiB rejected, previous document kept
+PASS raw HTML, SVG and scripts stay inert
+PASS dangerous links and remote images excluded
+PASS CSP blocks renderer network fetch
+PASS raster image decoded and re-encoded
+PASS image traversal rejected
+PASS absolute image rejected
+PASS remote image path rejected
+PASS SVG image rejected
+PASS symlink escaping document directory rejected
+PASS relative Korean filename image loads in WebKit
+PASS missing and escaping images show placeholder
+PASS invalid Mermaid and config override fall back safely
+PASS long tables and code scroll locally
+PASS source document byte-for-byte unchanged
+
+RESULT: 41 passed, 0 failed
